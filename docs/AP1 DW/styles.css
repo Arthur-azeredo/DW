@@ -1,170 +1,170 @@
 /* Estilos Globais */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1c1c1c; /* Fundo escuro */
-    color: #fff; /* Texto branco */
+    font-family: 'Arial', sans-serif; /* Define a fonte global como Arial */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamento interno padrão */
+    background-color: #1c1c1c; /* Define fundo escuro */
+    color: #fff; /* Texto branco para contraste com o fundo escuro */
 }
 
 div {
-    border-radius: 10px;
+    border-radius: 10px; /* Bordas arredondadas em todas as divs */
 }
 
 a {
-    color: #b97dff; /* Cor vibrante para links */
-    text-decoration: none;
-    transition: color 0.3s ease;
+    color: #b97dff; /* Cor vibrante para os links */
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    transition: color 0.3s ease; /* Animação suave na troca de cor ao interagir */
 }
 
 a:hover {
-    color: #ff1a75; /* Efeito hover com outra cor vibrante */
+    color: #ff1a75; /* Muda a cor do link ao passar o mouse */
 }
 
 /* Estilos para o Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0f0f0f; /* Cor de fundo do header escura */
-    padding: 20px;
-    height: 100px;
+    display: flex; /* Layout flexível para organizar o conteúdo horizontalmente */
+    justify-content: space-between; /* Espaço igual entre os elementos */
+    align-items: center; /* Alinha itens verticalmente no centro */
+    background-color: #0f0f0f; /* Cor de fundo escura para o cabeçalho */
+    padding: 20px; /* Espaçamento interno ao redor dos itens */
+    height: 100px; /* Define a altura do cabeçalho */
 }
 
 .logo {
-    width: 180px; /* Tamanho do logo */
+    width: 180px; /* Define o tamanho da imagem do logotipo */
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+    list-style: none; /* Remove as marcas de lista padrão */
+    display: flex; /* Exibe os itens da lista horizontalmente */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamento interno padrão */
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 20px; /* Adiciona espaço entre os itens da navegação */
 }
 
 nav ul li a {
-    color: #fff; /* Cor padrão dos links */
-    font-weight: bold; /* Links em negrito */
-    text-transform: uppercase; /* Transformação do texto */
+    color: #fff; /* Define a cor dos links no menu */
+    font-weight: bold; /* Coloca os links em negrito */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
 }
 
 nav ul li a:hover {
-    color: #b97dff; /* Cor dos links ao passar o mouse */
+    color: #b97dff; /* Cor dos links quando o usuário passa o mouse */
 }
 
 .pagamento {
-    width: 600px;
+    width: 600px; /* Define a largura da imagem de pagamento */
 }
 
 /* Estilos para a galeria de produtos */
 .flex-gallery {
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 0;
+    display: flex; /* Utiliza o Flexbox para organizar as imagens */
+    justify-content: space-around; /* Espaçamento igual entre as imagens */
+    margin: 50px 0; /* Margem acima e abaixo da galeria */
 }
 
 .flex-gallery figure {
-    text-align: center;
-    color: #fff;
+    text-align: center; /* Centraliza o texto embaixo das imagens */
+    color: #fff; /* Texto branco */
 }
 
 .flex-gallery img {
-    width: 300px;
-    border: none; /* Remover bordas das imagens */
-    transition: transform 0.3s ease;
+    width: 300px; /* Define a largura das imagens na galeria */
+    border: none; /* Remove bordas das imagens */
+    transition: transform 0.3s ease; /* Animação de zoom suave ao passar o mouse */
 }
 
 .flex-gallery img:hover {
-    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
 }
 
 /* Grid Layout para a seção de categorias */
 .grid-layout {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin: 50px 0;
+    display: grid; /* Usa grid layout para organizar as categorias */
+    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas de tamanhos iguais */
+    gap: 20px; /* Espaçamento entre os itens do grid */
+    margin: 50px 0; /* Margem acima e abaixo da seção de grid */
 }
 
 .grid-layout div {
-    background-color: #0f0f0f;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    border: 2px solid #b97dff;
-    transition: background-color 0.3s ease;
+    background-color: #0f0f0f; /* Cor de fundo das caixas do grid */
+    padding: 20px; /* Espaçamento interno das caixas */
+    text-align: center; /* Centraliza o texto */
+    color: #fff; /* Texto branco */
+    border: 2px solid #b97dff; /* Bordas com uma cor vibrante */
+    transition: background-color 0.3s ease; /* Transição suave ao alterar a cor de fundo */
 }
 
 .grid-layout div:hover {
-    background-color: #ff1a75;
+    background-color: #ff1a75; /* Altera a cor de fundo ao passar o mouse */
 }
 
 /* Estilos para o Footer */
 footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #0f0f0f;
-    padding: 30px 0;
-    margin-top: 50px;
+    display: flex; /* Utiliza o Flexbox para organizar o conteúdo horizontalmente */
+    justify-content: space-around; /* Distribui as seções do rodapé igualmente */
+    background-color: #0f0f0f; /* Cor de fundo escura para o rodapé */
+    padding: 30px 0; /* Espaçamento interno no rodapé */
+    margin-top: 50px; /* Margem acima do rodapé */
 }
 
 .footer-section h3 {
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 15px;
+    color: #fff; /* Cor do título das seções do rodapé */
+    font-weight: bold; /* Título em negrito */
+    margin-bottom: 15px; /* Espaço abaixo dos títulos */
 }
 
 .footer-section p, .footer-section ul {
-    color: #aaa;
+    color: #aaa; /* Cor mais clara para o texto e listas no rodapé */
 }
 
 .footer-section ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove marcas de lista */
+    padding: 0; /* Remove o espaçamento interno */
 }
 
 .footer-section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
 }
 
 .footer-section a {
-    color: #b97dff;
-    font-size: 18px;
-    transition: color 0.3s ease;
+    color: #b97dff; /* Cor dos links no rodapé */
+    font-size: 18px; /* Tamanho da fonte dos links */
+    transition: color 0.3s ease; /* Transição suave na troca de cor */
 }
 
 .footer-section a:hover {
-    color: #ff1a75;
+    color: #ff1a75; /* Cor dos links ao passar o mouse */
 }
 
 .footer-section i {
-    margin-right: 8px;
-    color: #b97dff;
-    transition: color 0.3s ease;
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    color: #b97dff; /* Cor inicial dos ícones */
+    transition: color 0.3s ease; /* Transição suave na troca de cor */
 }
 
 .footer-section i:hover {
-    color: #ff1a75;
+    color: #ff1a75; /* Cor dos ícones ao passar o mouse */
 }
 
 /* Media Queries para Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Aplicações para telas com largura de até 768px */
     nav ul {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Alinha os itens de navegação verticalmente */
+        align-items: center; /* Centraliza os itens */
     }
     
     .flex-gallery {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Exibe as imagens da galeria em uma coluna */
+        align-items: center; /* Centraliza as imagens */
     }
     
     .grid-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Exibe uma única coluna no layout grid */
     }
 }
 
