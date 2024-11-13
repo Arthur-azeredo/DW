@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/pokemon.png" alt="logo pokemon"> 
+    </header>
+
+    <main>
+        <section class="search">
+            <form id="pokemon-form">
+                <input type="text" id="pokemon-name" placeholder="Digite o nome do Pokémon" required>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section id="pokemon-data" class="pokemon-info"></section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <section class="about">
+                <h3>Sobre</h3>
+                <p>Site para buscar informações sobre Pokémon.</p>
+            </section>
+            <section class="links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </section>
+            <section class="social">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
