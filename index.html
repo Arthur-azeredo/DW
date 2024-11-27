@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definição do tipo de documento e idioma -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante responsividade em dispositivos móveis -->
+    <title>Pokédex - Explore o Mundo Pokémon</title> <!-- Título da página exibido no navegador -->
+    
+    <!-- Importação de fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <!-- Link para a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Importação do arquivo CSS local -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Pokédex</h1> <!-- Título principal da aplicação -->
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção para busca de Pokémon -->
+        <section id="pokemon-search">
+            <form id="pokemon-form"> <!-- Formulário para entrada de dados -->
+                <input type="text" id="pokemon-name" 
+                       placeholder="Digite o nome do Pokémon" 
+                       pattern="[A-Za-z]+" required>  <!-- Aceita apenas letras--> <!-- Campo obrigatório -->
+                <button type="submit">Buscar</button> <!-- Botão para envio do formulário -->
+            </form>
+            <div id="pokemon-data"></div> <!-- Div para exibir informações do Pokémon pesquisado -->
+        </section>
+
+        <!-- Galeria para exibição de cartões de Pokémon -->
+        <section id="pokemon-gallery"></section>
+
+        <!-- Modal para exibição detalhada de um Pokémon -->
+        <div id="pokemon-modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span> <!-- Botão para fechar o modal -->
+                <div id="modal-pokemon-details"></div> <!-- Conteúdo detalhado do Pokémon -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <!-- Seção sobre informações gerais -->
+        <div class="footer-section about">
+            <h3>Sobre</h3>
+            <p>Pokédex - Explore o mundo dos Pokémon</p>
+        </div>
+        <!-- Seção de links para navegação -->
+        <div class="footer-section links">
+            <h3>Links</h3>
+            <a href="#">Home</a><br>
+            <a href="#">Galeria</a><br>
+            <a href="#">Contato</a>
+        </div>
+        <!-- Seção para redes sociais -->
+        <div class="footer-section social">
+            <h3>Siga-nos</h3>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+
+    <!-- Importação do arquivo JavaScript local -->
+    <script src="script.js"></script>
+</body>
+</html>
